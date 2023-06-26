@@ -25,9 +25,6 @@ void puts2(char *str)
 	{
 		_putchar(str[o]);
 	}
-	else
-	{
-		continue;
 	}
-	}
+	_putchar('\n');
 }
